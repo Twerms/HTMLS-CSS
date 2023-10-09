@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Air Compressors</title>
+        <link rel="stylesheet" href="aircompressors.css">
+    </head>
+    <body>
+        <div class="container">
+            <h1>Order Your Air Compressor</h1>
+            <form>
+                <fieldset>
+                    <legend>Information</legend>
+                    <div class="separate">
+                        <label for="name">Name:</label>
+                        <input type="text" name="name" id="name" placeholder="First and Last Name">
+                    </div>
+                    <div class="separate">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" placeholder="email@example.com">
+                    </div>
+                    <div class="separate">
+                        <label>Type of Air Compressor:</label>
+                        <div class="type">
+                            <label for="portable">Portable</label>
+                            <input type="radio" id="portable" name="compressortype" value="Portable">
+                        </div>
+                        <div class="type">
+                        <label for="stationary">Stationary</label>
+                        <input type="radio" id="stationary" name="compressortype" value="Stationary">
+                        </div>
+                    </div>
+                    <div class="separate">
+                        <label for="compressortype">Compressor Type:</label>
+                        <select id="compressortype" name="compressormodel">
+                            <option value="scroll">Scroll</option>
+                            <option value="screw">Screw</option>
+                            <option value="reciprocating">Reciprocating</option>
+                            <option value="liquid-ring">Liquid-Ring</option>
+                            <option value="rotary-lobe">Rotary-Lobe</option>
+                            <option value="rotary-vane">Rotary-Vane</option>
+
+                        </select>
+                    </div>
+                    <div class="separate">
+                        <label for="additionalinfo">Additional Information:</label>
+                        <textarea id="additionalinfo" name="additionalinfo" rows="4"></textarea>
+                    </div>
+                    <button type="submit" class="submit">Submit</button>   
+                </fieldset>
+            </form>
+        </div>
+    </body>
+</html>

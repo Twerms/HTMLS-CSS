@@ -1,0 +1,35 @@
+h1 {
+    text-align: center;
+    margin: 0px;
+}
+
+h3, p {
+    text-align: center;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 700px;
+}
+
+.yes {
+    background-color: green;
+}
+
+.no {
+    background-color: red;
+}
+
+#green, #red {
+    word-wrap: break-word;
+    width: 650px;    
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.guess {
+    display: block;
+    margin-top: 20px;
+}

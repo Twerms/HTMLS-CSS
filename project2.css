@@ -1,0 +1,301 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    margin: 0;
+    padding: 0 50px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 68px;
+    color: white;
+}
+
+.container {
+    background-color: rgb(0, 162, 255);
+    display: flex;
+    justify-content: center;
+    box-shadow: 0px -2px 5px black;
+}
+
+ol {
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+
+.container li {
+    list-style: none; 
+    font-size: 20px;
+    padding: 20px 0px;
+}
+
+
+.container .d {
+    list-style: none;
+    font-size: 13px; 
+    padding: 20px 0px;
+}
+
+.container .e {
+    list-style: none; 
+    font-size: 13px; 
+    padding: 20px 0px;
+}
+
+.container .r {
+    list-style: none;
+    font-size: 13px; 
+    padding: 20px 0px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    padding: 20px 15px;
+}
+
+.container li:hover {
+    background-color: rgb(2, 108, 170);
+}
+
+.container li::first-letter {
+    font-weight: bold;
+    font-size: 50px;
+    color: whites;
+}
+
+.homeheader {
+    width: 100%;
+    position: relative;
+    z-index: -1;
+}
+
+.homeheader img {
+    width: 100%;
+    margin: 0;
+}
+
+.homeheader h2 {
+    position: absolute;
+    color: rgb(255, 255, 94);
+    font-size: 7vw;
+    text-align: center;
+    text-shadow: 2px 2px 1px black;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+h3 {
+    text-align: center;
+    font-size: 80px;
+    color: rgb(255, 255, 94);
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+}
+
+.home h3 {
+    color: rgb(32, 83, 32);
+    -webkit-text-stroke-width: 0;
+}
+
+.home p {
+    text-align: center;
+    font-size: 18px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+p {
+    text-align: center;
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.middle {
+    background-image: linear-gradient(white, rgb(136, 223, 136));
+    margin: 0;
+    padding: 40px 0 200px 0;
+}
+
+
+.middle {
+    margin: 0;
+    padding: 40px 0 150px 0;
+}
+
+
+figure {
+    text-align: center;
+    margin: 50px 0;
+}
+
+figcaption {
+    font-size: 25px;
+    margin-top: 10px;
+    margin-bottom: 100px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: black;
+}
+
+.name {
+    color: rgb(32, 83, 32);
+}
+
+.new h3 {
+    color: rgb(255, 255, 94);
+}
+
+.new figcaption .name {
+    color: rgb(54, 128, 54);
+}
+
+table, th, td {
+    border: 1px solid;
+    border-collapse: collapse;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto ;
+}
+
+table {
+    height: 1000px;
+    width: 80%;
+    text-align: center;
+}
+
+th {
+    background-color: rgb(32, 83, 32);
+}
+
+td {
+    background-color: rgb(54, 128, 54);
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+
+.travel a {
+    color: rgb(2, 108, 170);
+    font-size: 22px;
+    padding: 0;
+}
+
+.travel li {
+    margin: 10px;
+}
+
+.travel li a:hover {
+    text-decoration: underline;
+    padding: 0;
+}
+
+.travel {
+    margin: 50px auto auto auto;
+    list-style-type: none;
+    text-align: center;
+}
+
+.references a {
+    color: rgb(2, 108, 170);
+    font-size: 22px;
+    padding: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.references li {
+    text-align: center;
+    list-style-type: none;
+    margin: 40px 0;
+}
+
+.references p {
+    margin-top: 80px;
+}
+
+.references li:hover {
+    text-decoration: underline;
+}
+
+/*form css*/
+
+legend {
+    text-align: center;
+    font-weight: bold;
+}
+
+.separate {
+    margin-bottom: 20px;
+}
+
+fieldset {
+    border: 1px solid;
+    padding: 15px 15px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+
+}
+
+label {
+    display: block;
+    font-weight: bold;
+}
+
+#name{
+    width: 200px;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 5px;
+}
+
+#email {
+    width: 200px;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 5px;
+
+}
+
+select {
+    width: 214px;
+    padding: 10px;
+    margin-top: 5px;
+}
+
+#compressormodel {
+    width: 100%;
+}
+ 
+textarea {
+    width: 97.15%;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 5px;
+
+}
+
+.submit {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: rgb(110, 143, 252);
+    color: white;
+    cursor: pointer;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.type {
+    display: flex;
+    margin-top: 10px;
+}
+
+.type label {
+    font-weight: lighter;
+}

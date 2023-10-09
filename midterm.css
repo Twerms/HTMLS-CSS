@@ -1,0 +1,141 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.firstpage p {
+    font-family: Arial, sans-serif;
+    font-size: 1.7em;
+    margin: 59px 0;
+    color: rgb(104, 146, 224);
+}
+
+.firstpage p::first-letter {
+  font-size: 2.5em;
+}
+
+p {
+  font-family: Arial, sans-serif;
+  font-size: 1.3em;
+  color: rgb(104, 146, 224);
+}
+
+header {
+  background: pink;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+header::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+h1 {
+  font-size: 50px;
+  color: rgb(104, 146, 224);
+  margin: 1em .5em 1em 2em;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+img {
+  height: 6em;
+  margin-top: 2em;
+}
+
+nav {
+  margin: 2.5em 0 2.5em 35em;
+}
+
+nav ul {
+  margin: 0;
+  padding: 2em;
+  list-style: none;
+}
+
+nav li {
+  margin-left: 6em;
+  display: inline-block;
+  position: relative;
+}
+
+nav a {
+  text-decoration: none;
+  color: rgb(44, 44, 44);
+  font-size: 20px
+}
+
+h2, .contact p {
+  text-align: center;
+  text-decoration: underline;
+  color: rgb(87, 165, 87);
+}
+
+h2 {
+  font-size: 50px;
+}
+
+.mainimg {
+  float: left;
+  height: 25em;
+  margin: 0 3em 0 6em;
+}
+
+.contactimg {
+  display: block;
+  height: 25em;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.contact {
+  text-align: center;
+}
+
+.contact a {
+  color: rgb(44, 44, 44);
+}
+
+.products {
+  height: 10em;
+}
+
+#cone {
+  margin: 0 .1em 1em 37.1%;
+}
+
+#cup {
+  margin: 0 1.88em 0 38.4%;
+}
+
+#popsicle {
+  margin: 1.4em 2.1em 0 38.1%;
+  position: relative;
+} 
+
+.product {
+  display: flex;
+}
+
+.secondpage {
+  margin: 3em 0 0 0 ;
+}
+
+.thirdpage {
+  margin: 4.2em 0;
+}
+
+.thirdpage li {
+  color: rgb(104, 146, 224);
+  font-size: 35px;
+  margin: .9em 0 .9em 8em;
+}
+
+.float {
+  float: left;
+  margin-left: 15em;
+  margin-right: 4em;
+  height: 25em;
+}

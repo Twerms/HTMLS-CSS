@@ -1,0 +1,36 @@
+body {
+    background-color: rgb(110, 107, 107);
+}
+
+p, h3, h1, table {
+    color: white
+}
+
+table, th, td, tr{
+    border: 1px solid;
+    border-collapse: collapse;
+}
+
+.color {
+    background-color: rgb(56, 51, 51);
+}
+
+#maintitle {
+    background-color: rgb(61, 14, 14);
+}
+
+.imgwidth {
+    width: 100px;
+}
+
+#sub-title {
+    background-color: rgb(17, 35, 51);
+    color: white;
+    margin: 0%;
+}
+
+.center {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}

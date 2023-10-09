@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="project2.css">
+        <title>Wonders of the World</title>
+    </head>
+    <body>
+        <nav class="container">
+            <h1>7</h1>
+            <ol>
+                <li><a href="project2.html">What</a></li>
+                <li><a href="project2b.html">Old</a></li>
+                <li><a href="project2c.html">New</a></li>
+                <li class="d"><a href="project2d.html">Details</a></li>
+                <li class="e"><a href="project2e.html">Explore</a></li>
+                <li class="r"><a href="project2f.html">Resources</a></li>
+                <li><a href="project2g.html">Survey</a></li>
+            </ol>
+        </nav>
+        <div class="middle">
+            <h3>Survey</h3>
+            <form>
+                <fieldset>
+                    <legend>Fill Out This Form</legend>
+                    <div class="separate">
+                        <label for="name">Name:
+                            <input type="text" name="name" id="name" placeholder="First and Last Name">
+                        </label>
+                    </div>
+                    <div class="separate">
+                        <label for="email">Email:
+                            <input type="text" id="email" name="email" placeholder="email@example.com"> (if you want updates on our findings or other news/info)
+                        </label>
+                    </div>
+                    <div class="separate">
+                        <label for="birthday">Birth Date
+                            <input type="date" id="birthday" name="birthday">
+                        </label>
+                    </div>
+                    <div class="separate">
+                        <label>Which Category Did You Find More Interesting?:</label>
+                        <div class="category">
+                            <label for="ancient">The Ancient Wonders
+                                <input type="radio" id="ancient" name="wonders" value="ancientwonders">
+                            </label>
+                        </div>
+                        <div class="category">
+                            <label for="new">The New Wonders
+                                <input type="radio" id="new" name="wonders" value="newwonders">
+                            </label>
+                        </div>
+                    </div>
+                    <div class="separate">
+                        <label>Which Wonders Have You Been To?</label><br>
+                        <label for="giza">Pyramid of Giza
+                            <input type="checkbox" id="giza" value="pyramidsofgiza" name="which">
+                        </label>
+                        <label for="babylon">Hanging Gardens of Babylon
+                            <input type="checkbox" id="babylon" value="hanginggardensofbabylon" name="which">
+                        </label>
+                        <label for="zeus">Statue of Zeus
+                            <input type="checkbox" id="zeus" value="statueofzeus" name="which">
+                        </label>
+                        <label for="artemis">Temple of Artemis
+                            <input type="checkbox" id="artemis" value="templeofartemis" name="which">
+                        </label>
+                        <label for="halicarnassus">Masoleum of Halicarnassus
+                            <input type="checkbox" id="halicarnassus" value="masoleumofhalicarnassus" name="which">
+                        </label>
+                        <label for="rhodes">Colossus of Rhodes
+                            <input type="checkbox" id="rhodes" value="colossusofrhodes" name="which">
+                        </label>
+                        <label for="alexandria">Lighthouse of Alexandria
+                            <input type="checkbox" id="alexandria" value="lighthouseofalexandria" name="which">
+                        </label>
+                        <label for="petra">Petra
+                            <input type="checkbox" id="petra" value="petra" name="">
+                        </label>
+                        <label for="china">Great Wall of China
+                            <input type="checkbox" id="china" value="greatwallofchina" name="which">
+                        </label>
+                        <label for="picchu">Machu Picchu
+                            <input type="checkbox" id="picchu" value="machupicchu" name="which">
+                        </label>
+                        <label for="colosseum">Colosseum
+                            <input type="checkbox" id="colosseum" value="colosseum" name="which">
+                        </label>
+                        <label for="itza">Chichen Itza
+                            <input type="checkbox" id="itza" value="chickenitza" name="which">
+                        </label>
+                        <label for="redentor">Cristo Redentor
+                            <input type="checkbox" id="redentor" value="cristoredentor" name="which">
+                        </label>
+                        <label for="mahal">Taj Mahal
+                            <input type="checkbox" id="mahal" value="tajmahal" name="which">
+                        </label>
+                    </div>
+                    <div class="separate">
+                        <label for="favorite">Which Wonder Was You're Favorite?</label>
+                        <select id="favoritewonder" name="favoritewonder">
+                            <option value="pyramidsofgiza">Pyramids of Giza</option>
+                            <option value="hanginggardensofbabylon">Hanging Gardens of Babylon</option>
+                            <option value="statueofzeus">Statue of Zeus</option>
+                            <option value="templeofartemis">Temple of Artemis</option>
+                            <option value="masoleumofhalicarnassus">Masoleum of Halicarnassus</option>
+                            <option value="colossusofrhodes">Colossus of Rhodes</option>
+                            <option value="lighthouseofalexandria">Lighthouse of Alexandria</option>
+                            <option value="petra">Petra</option>
+                            <option value="greatwallofchina">Great Wall of China</option>
+                            <option value="machupicchu">Machu Picchu</option>
+                            <option value="colosseum">Colosseum</option>
+                            <option value="chickenitza">Chichen Itza</option>
+                            <option value="cristoredentor">Cristo Redentor</option>
+                            <option value="tajmahal">Taj Mahal</option>
+                        </select>
+                    </div>
+                    <div class="separate">
+                        <label for="favorite">Why Is It Your Favorite?:</label>
+                        <textarea id="favorite" name="why" rows="4"></textarea>
+                    </div>
+                    <button type="submit" class="submit">Submit</button>   
+                </fieldset>
+            </form>
+        </div>
+    </body>
+</html>
